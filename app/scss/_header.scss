@@ -1,0 +1,46 @@
+.header {
+    padding: 30px 0;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu-logo {
+        svg {
+            width: 220px;
+            height: 20px;
+        }
+    }
+
+    &__menu-right {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__menu-right--list {
+        display: flex;
+        gap: 30px;
+        li {
+        cursor: pointer;
+            &:hover {
+                color: #1b1a1a99;
+                transition: .2s linear;
+            }
+        }
+    }
+
+    &__menu-right--link {
+        cursor: pointer;
+        text-decoration: none;
+        background: #1B1A1A;
+        color: $main-color;
+        padding: 10px 20px;
+        border-radius: $radius-md;
+        &:hover {
+            background: #1b1a1a99;
+            transition: .2s linear;
+        }
+    }
+}
