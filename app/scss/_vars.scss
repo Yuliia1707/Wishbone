@@ -1,0 +1,45 @@
+// !vars
+$bg-color: #ECE7E4;
+$bg-dark-color: #403E3B;
+$bg-light-color: #F7F7F7;
+$bg-down-color: #CEC4BC;
+$text-color: #645C55;
+$title-color: #403E3B;
+$main-color: #FFFFFF;
+
+
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 24px;
+$radius-rounded: 50%;
+
+// !breakpoints
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1440px;
+$breakpoint-xxl: 1920px;
+
+// !MIXINS
+@mixin viewport-md {
+    @media screen and (min-width: $breakpoint-md) {
+        @content;
+    }
+}
+
+@mixin viewport-lg {
+    @media screen and (min-width: $breakpoint-lg) {
+        @content;
+    }
+}
+
+@mixin viewport-xl {
+    @media screen and (min-width: $breakpoint-xl) {
+        @content;
+    }
+}
+
+@mixin viewport-xxl {
+    @media screen and (min-width: $breakpoint-xxl) {
+        @content;
+    }
+}
