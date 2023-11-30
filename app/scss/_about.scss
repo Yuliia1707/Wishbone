@@ -1,21 +1,59 @@
 .about {
     background: $bg-color;
-    background-image: url(../images/background/IMAGE.png);
+
     &__text {
+        padding-top: 140px;
     }
 
     &__text-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        color: $text-color;
+        margin-bottom: 20px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
     }
 
 
     &__text-title {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 70px;
+        margin-bottom: 20px;
     }
 
     &__text-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 40px;
     }
 
     &__text-link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-decoration: none;
+        color: #1b1a1a;
+        &:hover {
+            color: #1b1a1a99;
+            transition: .2s linear;
+        }
     }
 }
-.container {
+
+.wrapper {
+    width: 30vw;
+    margin-right: auto;
+}
+
+
+.wrapp {
+    background-image: url(../images/background/IMAGE.png);
+    height: 720px;
+    background-size: 50vw 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
 }
