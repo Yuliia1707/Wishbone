@@ -22,8 +22,10 @@
     &__menu-right--list {
         display: flex;
         gap: 30px;
-        li {
+        a {
         cursor: pointer;
+        text-decoration: none;
+        color: #1B1A1A;
             &:hover {
                 color: #1b1a1a99;
                 transition: .2s linear;
