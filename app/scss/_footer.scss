@@ -1,0 +1,48 @@
+.footer {
+
+    &__box {
+        margin: 60px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    &__box-text {
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: $text-color;
+        }
+    }
+
+    &__box-text--link {
+        display: inline-block;
+        align-items: start;
+        margin-bottom: 20px;
+        svg {
+            width: 250px;
+            height: 22px;
+        }
+    }
+
+    &__box-links {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__box-links--link {
+        display: inline-block;
+        svg {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            border-radius: $radius-sm;
+            &:hover {
+                transition: .2s linear;
+                background: #1b1a1a56;
+            }
+        }
+    }
+}
+
